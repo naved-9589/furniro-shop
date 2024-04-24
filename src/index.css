@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.react-multi-carousel-item--active >div{
+   height: 440px;
+   overflow: hidden;
+  
+}
+
+@media  (max-width: 480px){
+  .react-multi-carousel-item--active >div{
+    height: 220px;
+    overflow: hidden;
+    padding: 0px 10px;
+ }
+}
+
+@layer base {
+    @font-face {
+      font-family: 'poppind';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/fonts/Poppins.ttf) format('ttf');
+    }
+  }
